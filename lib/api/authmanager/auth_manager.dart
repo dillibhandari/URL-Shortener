@@ -1,0 +1,6 @@
+class ServiceManager {}
+
+class AuthManager  {
+
+
+}
