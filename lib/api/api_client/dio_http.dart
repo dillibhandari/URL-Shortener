@@ -18,7 +18,8 @@ class DioHttp implements IHttp {
   get({String? url, String? token}) async {
     await addUserAgent();
     dio.options.headers['content-Type'] = 'application/json';
-    dio.options.headers['apikey'] = '74d5af4c3fa048c1af9389b8a4523e05';
+    dio.options.headers['apikey'] =
+        '74d5af4c3fa048c1af9389b8a4523e05'; //'9981d63c96144c6ab2dc03f9679e8f78';
     if (token != null) {
       dio.options.headers["Authorization"] = "Bearer $token";
     }
